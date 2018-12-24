@@ -26,4 +26,4 @@ function proxyon() {
 function proxyoff() {
 	unset {http,https,ftp}_proxy
 }
-alias config='/usr/bin/git --git-dir=/home/vagrant/.cfg/ --work-tree=/home/vagrant'
+alias config='git --git-dir=/home/vagrant/.cfg/ --work-tree=/home/vagrant'
