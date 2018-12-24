@@ -97,4 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval `dircolors ~/.dircolors`
+
+[[ -f ~/.shell/interactive ]] && . ~/.shell/interactive
+
+# alias
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
