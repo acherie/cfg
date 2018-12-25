@@ -5,6 +5,9 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# Source bash interactive
+[[ -f ~/.bash/interactive ]] && . ~/.bash/interactive
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
@@ -26,4 +29,3 @@ function proxyon() {
 function proxyoff() {
 	unset {http,https,ftp}_proxy
 }
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

@@ -9,3 +9,6 @@ if [ -t 0 ]; then
 #    if [ `tput colors` -ge 8 ]; then
 #    fi
 fi
+
+# alias
+alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

@@ -101,4 +101,3 @@ eval `dircolors ~/.dircolors`
 [[ -f ~/.zsh/interactive ]] && . ~/.zsh/interactive
 
 # alias
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
