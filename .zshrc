@@ -64,6 +64,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  autojump
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -101,3 +102,5 @@ eval `dircolors ~/.dircolors`
 [[ -f ~/.zsh/interactive ]] && . ~/.zsh/interactive
 
 # alias
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
