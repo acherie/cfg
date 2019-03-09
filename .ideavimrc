@@ -1,0 +1,8 @@
+set history=500
+set gdefault
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+set number
+set relativenumber
